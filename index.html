@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-css-toboolist</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!--Header-->
@@ -15,34 +15,39 @@
     </header>
 
     <main>
-        <!--Prima sezione-->
-        <section>
-            <button>Add Task</button>
-            <button>Add Section</button>
+    <!--Prima sezione-->
+        <section id="border">
+            <button class="b_1 editorial">Add Task</button>
+            <button class="b_1" id="white">Add Section</button>
         </section>
 
-        <!--Seconda sezione -->
+    <!--Seconda sezione -->
         <section>
             <h2>&#9660 New Task</h2>
-            <div><span>&#10003</span> Quarterly Newsletter <button class=>Editorial</button></div>
+            <div><span class="verde">&#10004</span> Quarterly Newsletter <button class="b_2 editorial">Editorial</button></div>
         </section>
 
-        <!--Terza sezione -->
+    <!--Ho unificato i div dentro le sezioni e inserito br, penso non cambi troppo-->
+    <!--Seconda sezione -->
         <section>
             <h2>&#9660 Today</h2>
-            <div>&#10003 Recruting blog post <button>Editorial</button></div>
-            <div>&#10003 Mobile app luaunch <button>Q1 Goals</button></div>
-            <div>&#10007 Interview John H. <button>Recruiting</button></div>
-            <div>&#10003 Summit update to mobile storefronts <button>Mobile</button></div>
+            <div> 
+                <span class="verde">&#10004</span> Recruting blog post <button class="b_2 editorial">Editorial</button> <br>
+                <span class="verde">&#10004</span> Mobile app luaunch <button class="b_2" id="goals">Q1 Goals</button><br>
+                <span class="rosso">&#10007</span> Interview John H. <button class="b_2" id="recruiting">Recruiting</button><br>
+                <span class="verde">&#10004</span> Summit update to mobile storefronts <button class="b_2" id="mobile">Mobile</button>
+            </div>
         </section>
 
-        <!--Quarta sezione-->
+    <!--Quarta sezione-->
         <section>
             <h2>&#9660 Upcoming</h2>
-            <div>&#10007 Schedule meeting with Alex</div>
-            <div>&#10003 Homepage refresh <button>Website</button></div>
-            <div>&#10003 Onboard new Sales team members <button>Sales</button></div>
-            <div>&#10003 Review editorial calendar <button>Editorial</button></div>
+            <div>
+                <span class="rosso">&#10007</span> Schedule meeting with Alex <br>
+                <span class="verde">&#10004</span> Homepage refresh <button class="b_2" id="website">Website</button><br>
+                <span class="verde">&#10004</span> Onboard new Sales team members <button class="b_2" id="sales">Sales</button><br>
+                <span class="verde">&#10004</span> Review editorial calendar <button class="b_2 editorial">Editorial</button>
+            </div>
         </section>
     </main>
 </body>
