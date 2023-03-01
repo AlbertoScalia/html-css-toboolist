@@ -15,14 +15,11 @@ header, main{
 }
 
 header img{
-    max-width: 100%;
-    height: auto;
-    padding-left: 15px;
+    padding: 10px;
 }
 
 h1{
     font-size: 34px;
-    font-weight: bold;
 }
 
 h2{
@@ -38,11 +35,12 @@ main{
     margin: 0 auto;
     border-radius: 10px;
     margin-top: 40px;
+    margin-bottom: 30px;
     padding-bottom: 30px;
 }
 
 section{
-    padding: 10px 50px 5px;
+    padding: 5px 50px 5px;
     margin-top: 20px;
     line-height: 40px;
 }
@@ -52,10 +50,10 @@ section{
 }
 
 .b_1{
-    width: 90px;
-    height: 30px;
+    padding: 5px 10px;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
 
 .editorial{
@@ -71,23 +69,31 @@ section{
 
 span{
     border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
 }
 
 .verde{
     color: #7fcdbc;
-    border: 1px solid #7fcdbc;
+    border: 2px solid #7fcdbc;
 }
 
 .rosso{
     color: #ea544d;
-    border: 1px solid #ea544d;
+    border: 2px solid #ea544d;
 }
 
 .b_2{
     border-radius: 8px;
     color: white;
     font-size: 10px;
-    height: 20px;
+    padding: 5px 5px;
+    cursor: pointer;
 }
 
 #goals{
